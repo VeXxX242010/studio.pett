@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+body{
+    background-color: #f6c98c;
+    color:#1e1e1e;
+    font-family:'Cabin', sans-serif ;
+    font-weight: 400;
+}
+
+header{
+    background: linear-gradient(to right, #87553d, #901115);
+}
+
+header img {
+    width: 300px;
+    height: auto;
+}
+
+nav a {
+    color: #f6c98c;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:#1e1e1e;
+    background-color:#f6c98c;
+    border-radius: 30px;
+}
+
+#frase-de-efeito {
+    letter-spacing: 1px;
+    color: #901115;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-shadow: 0px 0px 8px #a54343e8;
+    text-align: center;
+}
+
+h1{
+    color: #901115;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2{
+    color:#901115;
+    text-align: center;
+}
+
+.topicos{
+    text-align: justify;
+}
+
+figure img {
+    width:550px ;
+    height:auto;
+    border-radius: 10px;
+}
+
+figcaption{
+    font-size: 1.5rem;
+}
+
+.table-responsive{
+    width: 100%;
+    overflow-x: auto;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    background-color: #901115;
+    color: #f6c98c;
+}
+
+td{
+    background-color: #87553d;
+}
+
+#topo a {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+#topo a:hover {
+    color:#901115;
+}
+
+footer{
+    background-color:#901115;
+    color: #f6c98c;
+    text-align: center;
+}
+
+footer img{
+    width:30px ;
+    height: 30px;
+    transition: transform 0.2s ease;
+}
+
+footer img:hover{
+    transform: scale(1.1);
+}
